@@ -4,7 +4,7 @@ pipeline {
 		stage('git-checkout') {
 			steps {
 				echo "Checking out form Git Repo";
-				git credentialsId: '66c263a8-6090-4ed9-a8c1-34ff01d91dff', url: 'http://mustafizur.localdomain/root/pipeline-script.git'
+				git credentialsId: '1eee6640-3255-494d-ae95-7a9475e31b50', url: 'https://github.com/MizanIftee/Pipeline_Testing.git'
 			}
 		}
 		
