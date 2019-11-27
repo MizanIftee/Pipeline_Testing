@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "This is Build Script"
+echo "Hello!!This is Build Script testing"
