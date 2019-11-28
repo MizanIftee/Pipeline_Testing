@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('git-checkout') {
 			steps {
-				echo "Checking out form Git Repository and also check";
+				echo "Checking out form Git Repository and also check if auto build happened";
 				git credentialsId: '1eee6640-3255-494d-ae95-7a9475e31b50', url: 'https://github.com/MizanIftee/Pipeline_Testing.git'
 			}
 		}
